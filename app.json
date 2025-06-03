@@ -24,11 +24,16 @@
       }
     },
     "web": {
-      "bundler": "metro",
-      "output": "server"
+      "bundler": "metro"
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id"
+      }
+    },
+    "scheme": "nmdp-app-demo"
   }
 }
